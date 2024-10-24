@@ -43,7 +43,7 @@ export class LinearInputControl implements ComponentFramework.StandardControl<II
 
         //Setting the max and min values for the control.
         this.inputElement.setAttribute("min", "1");
-        this.inputElement.setAttribute("max", "11");
+        this.inputElement.setAttribute("max", "1000");
         this.inputElement.setAttribute("class", "Linearslider");
         this.inputElement.setAttribute("id", "linearrangeinput");
 
